@@ -1,0 +1,12 @@
+{
+  "name": "fitlife-gym",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FitLife Gym website",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}

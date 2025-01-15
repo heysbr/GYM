@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">FitLife<span class="text-primary">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#membership">Membership</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section text-white text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">TRANSFORM YOUR BODY</h1>
+            <p class="lead mb-4">Start your fitness journey today with our expert trainers</p>
+            <a href="#membership" class="btn btn-primary btn-lg rounded-pill px-5 py-3">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Classes Section -->
+    <section id="classes" class="py-6">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h6 class="text-primary fw-bold mb-3">OUR CLASSES</h6>
+                    <h2 class="display-5 fw-bold mb-4">World Class Fitness Training</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg" class="card-img-top" alt="Strength Training">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-dumbbell text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Strength Training</h5>
+                            </div>
+                            <p class="card-text">Build muscle and increase your strength with our expert trainers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/917732/pexels-photo-917732.jpeg" class="card-img-top" alt="Yoga">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-spa text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Yoga</h5>
+                            </div>
+                            <p class="card-text">Find your inner peace and improve flexibility with our yoga classes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg" class="card-img-top" alt="Cardio">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-heartbeat text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Cardio</h5>
+                            </div>
+                            <p class="card-text">Boost your endurance and burn calories with high-energy cardio sessions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="bg-light py-6">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h6 class="text-primary fw-bold mb-3">MEMBERSHIP PLANS</h6>
+                    <h2 class="display-5 fw-bold mb-4">Choose Your Perfect Plan</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card pricing-card border-0 shadow-sm">
+                        <div class="card-body p-5">
+                            <h6 class="text-primary fw-bold mb-3">BASIC</h6>
+                            <h1 class="display-5 fw-bold mb-4">$29<small class="fs-5 fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Access to Gym Floor</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Basic Equipment</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Locker Room Access</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-primary rounded-pill w-100">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-card border-0 shadow-lg popular">
+                        <div class="card-body p-5">
+                            <h6 class="text-primary fw-bold mb-3">PREMIUM</h6>
+                            <h1 class="display-5 fw-bold mb-4">$49<small class="fs-5 fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>All Basic Features</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Group Classes</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Personal Trainer (2x/month)</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary rounded-pill w-100">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-card border-0 shadow-sm">
+                        <div class="card-body p-5">
+                            <h6 class="text-primary fw-bold mb-3">ELITE</h6>
+                            <h1 class="display-5 fw-bold mb-4">$79<small class="fs-5 fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>All Premium Features</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Unlimited Classes</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Personal Trainer (4x/month)</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-primary rounded-pill w-100">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-6">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h6 class="text-primary fw-bold mb-3">CONTACT US</h6>
+                    <h2 class="display-5 fw-bold mb-4">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="mb-4">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="form-control form-control-lg" rows="5" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="fw-bold mb-4">FitLife<span class="text-primary">.</span></h4>
+                    <p class="mb-0">Transform your body and mind with our world-class fitness facilities and expert trainers.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#classes" class="text-white text-decoration-none">Classes</a></li>
+                        <li class="mb-2"><a href="#membership" class="text-white text-decoration-none">Membership</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-4">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt text-primary me-2"></i>123 Fitness Street, NY 10001</li>
+                        <li class="mb-2"><i class="fas fa-phone text-primary me-2"></i>(555) 123-4567</li>
+                        <li class="mb-2"><i class="fas fa-envelope text-primary me-2"></i>info@fitlife.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
