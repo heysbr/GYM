@@ -70,6 +70,25 @@ body {
     transform: scale(1.05) translateY(-5px);
 }
 
+/* Owner Section */
+.rounded-lg {
+    border-radius: 1rem !important;
+}
+
+#owner img {
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#owner .social-links a {
+    transition: color 0.3s ease;
+}
+
+#owner .social-links a:hover {
+    color: var(--primary-color);
+}
+
 /* Form Controls */
 .form-control {
     border: 1px solid #dee2e6;
